@@ -32,7 +32,7 @@ const HomePage = () => {
         <div className="header-content">
           <div className="site-name">KNOWP</div>
           <div className="header-links">
-            <Link to="/about">About Us</Link>
+            <Link to="/about">About Me</Link>
             <Link to="/course">Go to Course Page</Link>
             <Link to="/contact">Contact</Link>
           </div>
@@ -45,7 +45,7 @@ const HomePage = () => {
         <h1>KNOWP</h1><center>Your Gateway to Knowledge and Learning!</center>
 
 <p>Embark on a journey of discovery and empowerment with KNOWP, where knowledge meets passion.
- We believe in the transformative power of learning and aim to provide you with a platform that not only imparts knowledge but sparks curiosity,
+i believe in the transformative power of learning and aim to provide you with a platform that not only imparts knowledge but sparks curiosity,
   fosters creativity, and encourages continuous growth.</p>
       </div>
 

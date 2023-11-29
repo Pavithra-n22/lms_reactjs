@@ -9,14 +9,14 @@ const CoursePage = () => {
   // Dummy data for related courses
   const relatedCourses = [
     { id: 'react', title: 'React Course', description: 'Learn ReactJS for building user interfaces.' },
-    { id: 'javascript', title: 'JavaScript Course', description: 'Master the fundamentals of JavaScript.' },
-    { id: 'html-css', title: 'HTML & CSS Course', description: 'Build responsive and beautiful websites.' },
+    { id: 'java', title: 'Java Course', description: 'Master the fundamentals of Java.' },
     { id: 'python', title: 'Python Course', description: 'Explore the world of Python programming.' },
-    { id: 'nodejs', title: 'Node.js Course', description: 'Build scalable network applications using Node.js.' },
-    { id: 'mongodb', title: 'MongoDB Course', description: 'Master NoSQL database with MongoDB.' },
-    { id: 'angular', title: 'Angular Course', description: 'Learn front-end web development with Angular.' },
-    { id: 'vuejs', title: 'Vue.js Course', description: 'Build interactive web interfaces with Vue.js.' },
-    { id: 'typescript', title: 'TypeScript Course', description: 'Enhance your JavaScript with TypeScript.' },
+    { id: 'html', title: 'Python Course', description: 'upcoming' },
+    { id: 'nodejs', title: 'Node.js Course', description: 'upcoming.' },
+    { id: 'mongodb', title: 'MongoDB Course', description: 'upcoming..' },
+    { id: 'angular', title: 'Angular Course', description: 'upcoming..' },
+    { id: 'vuejs', title: 'Vue.js Course', description: 'upcoming.' },
+    { id: 'typescript', title: 'TypeScript Course', description: 'upcoming.' },
     // Add more related courses as needed
   ];
 
@@ -28,7 +28,7 @@ const CoursePage = () => {
         <h2>Related Courses</h2>
         <div className="course-grid">
           {relatedCourses.map(relatedCourse => (
-            <Link to={'/reactpage'} key={relatedCourse.id} className="course-block">
+            <Link to={`/${relatedCourse.id}page`} key={relatedCourse.id} className="course-block">
               <h3>{relatedCourse.title}</h3>
               <p>{relatedCourse.description}</p>
             </Link>
