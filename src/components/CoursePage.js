@@ -11,11 +11,11 @@ const CoursePage = () => {
     { id: 'react', title: 'React Course', description: 'Learn ReactJS for building user interfaces.' },
     { id: 'java', title: 'Java Course', description: 'Master the fundamentals of Java.' },
     { id: 'python', title: 'Python Course', description: 'Explore the world of Python programming.' },
-    { id: 'html', title: 'Python Course', description: 'upcoming' },
-    { id: 'nodejs', title: 'Node.js Course', description: 'upcoming.' },
-    { id: 'mongodb', title: 'MongoDB Course', description: 'upcoming..' },
-    { id: 'angular', title: 'Angular Course', description: 'upcoming..' },
-    { id: 'vuejs', title: 'Vue.js Course', description: 'upcoming.' },
+    { id: 'datas', title: 'Data Structures Course', description: 'A data structure is a specialized format for organizing, processing data' },
+    { id: 'html', title: 'HTML Course', description: 'Master the fundementals of HTML.' },
+    { id: 'cprog', title: 'C programming Course', description: 'check for c programming tutorial' },
+    { id: 'css', title: 'CSS  Course', description: 'start learning on CSS fundementals' },
+    { id: 'angular', title: 'Angular Course', description: 'start your learning on Angular' },
     { id: 'typescript', title: 'TypeScript Course', description: 'upcoming.' },
     // Add more related courses as needed
   ];

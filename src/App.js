@@ -4,7 +4,15 @@ import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
 import ReactPage from './components/Reactpage';
 import JavaPage from './components/Java';
+import Datas from './components/Datas';
 import PythonPage from './components/Python';
+import Html from './components/Html';
+import Cprog  from './components/Cprog';
+import Css from './components/Css';
+import Angular from './components/Angular';
+
+
+
 function App() {
   const basename = process.env.NODE_ENV === 'production' ? '/lms_reactjs' : '/';
 
@@ -17,6 +25,13 @@ function App() {
           <Route path="/reactpage" element={<ReactPage />} />
           <Route path="/javapage" element={<JavaPage />} />
           <Route path="/pythonpage" element={<PythonPage />} />
+          <Route path="/dataspage" element={<Datas />} />
+          <Route path="/htmlpage" element={<Html />} />
+          <Route path="/cprogpage" element={<Cprog />} />
+          <Route path="/csspage" element={<Css />} />
+          <Route path="/angularpage" element={<Angular />} />
+          
+        
         </Routes>
       </div>
     </Router>
