@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import CoursePage from './components/CoursePage';
 import ReactPage from './components/Reactpage';
@@ -7,17 +7,13 @@ import JavaPage from './components/Java';
 import Datas from './components/Datas';
 import PythonPage from './components/Python';
 import Html from './components/Html';
-import Cprog  from './components/Cprog';
+import Cprog from './components/Cprog';
 import Css from './components/Css';
 import Angular from './components/Angular';
 
-
-
 function App() {
-  const basename = process.env.NODE_ENV === 'production' ? '/lms_reactjs' : '/';
-
   return (
-    <Router basename={basename}>
+    <Router basename="">
       <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -30,8 +26,6 @@ function App() {
           <Route path="/cprogpage" element={<Cprog />} />
           <Route path="/csspage" element={<Css />} />
           <Route path="/angularpage" element={<Angular />} />
-          
-        
         </Routes>
       </div>
     </Router>
